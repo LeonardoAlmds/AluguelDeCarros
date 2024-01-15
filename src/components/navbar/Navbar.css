@@ -1,0 +1,34 @@
+.navbar {
+	padding: 15px 70px;
+	background-color: var(--secondary-color);
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar button {
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	background: none;
+	color: var(--primary-color);
+	font-weight: 600;
+	border-style: solid;
+	border-color: var(--primary-color);
+	border-radius: 3px;
+	position: relative;
+	padding-left: 24px;
+	animation: ease-in-out;
+	transition: .3s;
+}
+
+.navbar button:hover {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+.navbar button svg {
+	position: absolute;
+	left: 8px;
+	top: 50%;
+	transform: translateY(-50%);
+}

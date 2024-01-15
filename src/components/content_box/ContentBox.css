@@ -1,0 +1,107 @@
+.content {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.content h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.content h2 {
+  font-weight: 600;
+}
+
+.content form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input {
+  width: 100px;
+  margin-top: 30px;
+  background-color: var(--third-color);
+  border-style: none;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+input[type="date"] {
+  font-weight: 600;
+}
+
+.input-regiao {
+  width: 340px;
+  font-weight: 600;
+}
+
+.input-button {
+  width: 180px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 700;
+  animation: ease-in-out;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.input-button:hover {
+  background-color: #16a2ff;
+}
+
+.retangulo {
+  width: 100%;
+  height: 84px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--third-color);
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+#retirar_hora {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.content form option {
+  color: var(--secondary-color); 
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px !important;
+}
+
+.content .box {
+  width: 260px;
+  height: 78px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--third-color);
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content form {
+    flex-direction: column;
+  }
+
+  .form-input {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .retangulo {
+    display: none;
+  }
+
+}
+
